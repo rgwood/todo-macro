@@ -1,0 +1,15 @@
+[package]
+name = "todo-macro"
+version = "0.1.0"
+authors = ["Reilly <reilly.wood@icloud.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn="1.0.5"
+quote="1.0.2"
+chrono="0.4.9"
+
+[lib]
+proc-macro = true
