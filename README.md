@@ -35,7 +35,7 @@ Think of `todo` as a reminder that actively forces your future self to deal with
 
 It would be cool if users didn't even have to specify a date. Like maybe they call `todo_in_x_days!(3)` and that magically stops compiling after 3 days. This might be doable with some extremely hacky local state, but I'd definitely go to compiler hell for that.
 
-I wonder whether this could function like Scala's [`???`](https://alvinalexander.com/scala/what-does-three-question-marks-in-scala-mean) (not implemented) expression, so it replaces entire expressions instead of being used like a statement.
+I wonder whether `todo` could function like Scala's [`???`](https://alvinalexander.com/scala/what-does-three-question-marks-in-scala-mean) (not implemented) expression, so it replaces entire expressions instead of being used like a statement.
 
 ## Prerequisites
 
