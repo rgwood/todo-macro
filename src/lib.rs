@@ -15,7 +15,7 @@ pub fn todo(input: TokenStream) -> TokenStream {
     match parsed_deadline {
         Ok(deadline) => {
             if Local::today().naive_local() > deadline {
-                panic!("Tsk tsk. You missed your deadline");
+                panic!("Tsk tsk. You missed your deadline.");
             }
             },
         Err(e) => panic!("The todo! macro failed to parse the input string to a date: {}", e)
