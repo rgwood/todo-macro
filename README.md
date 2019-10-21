@@ -1,6 +1,6 @@
 # todo-macro
 
-A macro in Rust that stops compiling after a user-specified deadline. Like TODO comments but meaner.
+A Rust macro that stops compiling after a user-specified deadline. Like TODO comments but meaner.
 
 This is just a dumb (but fun) toy, don't use it in a real project unless you're *really* comfortable with non-deterministic builds.
 
@@ -29,7 +29,7 @@ error: proc macro panicked
   = help: message: Tsk tsk. You missed your deadline.
 ```
 
-Think of `todo` like a reminder that actively forces your future self to deal with a problem.
+Think of `todo` as a reminder that actively forces your future self to deal with a problem.
 
 ## TODO for todo-macro
 
