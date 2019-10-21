@@ -37,6 +37,8 @@ It would be cool if users didn't even have to specify a date. Like maybe they ca
 
 I wonder whether `todo` could function like Scala's [`???`](https://alvinalexander.com/scala/what-does-three-question-marks-in-scala-mean) (not implemented) expression, so it replaces entire expressions instead of being used like a statement.
 
+Try+document macro expansion using `cargo expand` as per [this workshop](https://github.com/dtolnay/proc-macro-workshop#debugging-tips)
+
 ## Prerequisites
 
 You'll need to add `#![feature(proc_macro_hygiene)]` to your code that uses `todo`, at least until [this Rust issue](https://github.com/rust-lang/rust/issues/54727) is sorted out.
