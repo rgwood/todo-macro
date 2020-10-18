@@ -14,7 +14,7 @@ To save me from myself, I add a quick `todo` macro with a deadline of January 2 
 
 ```rust
 // Implement the timeout handling
-todo!("2020-01-02")
+todo!("2020-01-02");
 ```
 
 That compiles for now, but as soon as the deadline is passed (i.e. our system clock returns Jan 3), builds start failing:
